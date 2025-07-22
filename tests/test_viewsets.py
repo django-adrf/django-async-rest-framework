@@ -5,8 +5,8 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.test import APIRequestFactory
 
-from adrf.serializers import ModelSerializer
-from adrf.viewsets import ModelViewSet, ViewSet
+from async_restframework.serializers import ModelSerializer
+from async_restframework.viewsets import ModelViewSet, ViewSet
 from tests.test_views import JSON_ERROR, sanitise_json_error
 
 factory = APIRequestFactory()

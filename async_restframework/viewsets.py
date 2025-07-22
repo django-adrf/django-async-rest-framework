@@ -6,10 +6,10 @@ from django.utils.decorators import classonlymethod
 from django.utils.functional import classproperty
 from rest_framework.viewsets import ViewSetMixin as DRFViewSetMixin
 
-from adrf import mixins
-from adrf.generics import GenericAPIView
-from adrf.utils import getmembers
-from adrf.views import APIView
+from async_restframework import mixins
+from async_restframework.generics import GenericAPIView
+from async_restframework.utils import getmembers
+from async_restframework.views import APIView
 
 
 class ViewSetMixin(DRFViewSetMixin):

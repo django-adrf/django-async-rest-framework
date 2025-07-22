@@ -8,8 +8,8 @@ from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.exceptions import AuthenticationFailed
 from rest_framework.test import APIRequestFactory
 
-from adrf.decorators import api_view
-from adrf.views import APIView
+from async_restframework.decorators import api_view
+from async_restframework.views import APIView
 
 fake = faker.Faker()
 

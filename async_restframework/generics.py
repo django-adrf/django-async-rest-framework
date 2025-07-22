@@ -5,8 +5,8 @@ from django.http import Http404
 from rest_framework.exceptions import ValidationError
 from rest_framework.generics import GenericAPIView as DRFGenericAPIView
 
-from adrf import mixins, views
-from adrf.shortcuts import aget_object_or_404 as _aget_object_or_404
+from async_restframework import mixins, views
+from async_restframework.shortcuts import aget_object_or_404 as _aget_object_or_404
 
 
 def aget_object_or_404(queryset, *filter_args, **filter_kwargs):

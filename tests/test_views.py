@@ -7,8 +7,8 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.test import APIRequestFactory
 
-from adrf.decorators import api_view
-from adrf.views import APIView
+from async_restframework.decorators import api_view
+from async_restframework.views import APIView
 
 factory = APIRequestFactory()
 

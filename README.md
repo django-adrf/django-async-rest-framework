@@ -1,4 +1,4 @@
-# Async Django REST framework
+# Django Async REST framework
 
 **Async support for Django REST framework**
 

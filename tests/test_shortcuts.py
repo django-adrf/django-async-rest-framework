@@ -1,7 +1,7 @@
 from django.http import Http404
 from django.test import TestCase
 
-from adrf.shortcuts import aget_object_or_404
+from async_restframework.shortcuts import aget_object_or_404
 
 from .models import User
 

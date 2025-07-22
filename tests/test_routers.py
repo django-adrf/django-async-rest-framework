@@ -2,8 +2,8 @@ from django.test import Client, TestCase, override_settings
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet as DRFModelViewSet
 
-from adrf.routers import SimpleRouter
-from adrf.viewsets import ModelViewSet as AsyncModelViewSet
+from async_restframework.routers import SimpleRouter
+from async_restframework.viewsets import ModelViewSet as AsyncModelViewSet
 
 
 class SyncViewSet(DRFModelViewSet):

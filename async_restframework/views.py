@@ -7,7 +7,7 @@ from rest_framework.request import Request
 from rest_framework.throttling import BaseThrottle
 from rest_framework.views import APIView as DRFAPIView
 
-from adrf.requests import AsyncRequest
+from async_restframework.requests import AsyncRequest
 
 
 class APIView(DRFAPIView):

@@ -3,7 +3,7 @@ from django.test import TestCase
 from rest_framework import status
 from rest_framework.test import APIRequestFactory
 
-from adrf import generics, serializers
+from async_restframework import generics, serializers
 
 from .models import Order, User
 

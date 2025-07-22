@@ -1,7 +1,7 @@
 import asyncio
 import types
 
-from adrf.views import APIView
+from async_restframework.views import APIView
 
 
 def api_view(http_method_names=None):

@@ -3,7 +3,7 @@ from django.test import TestCase, override_settings
 from rest_framework.test import APIRequestFactory
 from rest_framework.throttling import BaseThrottle
 
-from adrf.views import APIView
+from async_restframework.views import APIView
 
 factory = APIRequestFactory()
 

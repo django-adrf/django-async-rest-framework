@@ -5,8 +5,8 @@ from django.test import TestCase
 from rest_framework import serializers
 from rest_framework.test import APIRequestFactory
 
-from adrf.fields import SerializerMethodField
-from adrf.serializers import ModelSerializer, Serializer
+from async_restframework.fields import SerializerMethodField
+from async_restframework.serializers import ModelSerializer, Serializer
 
 from .models import Order, User
 

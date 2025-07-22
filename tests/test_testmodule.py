@@ -4,8 +4,8 @@ from django.urls import path, reverse
 from rest_framework import status
 from rest_framework.response import Response
 
-from adrf.decorators import api_view
-from adrf.test import AsyncAPIClient, AsyncAPIRequestFactory
+from async_restframework.decorators import api_view
+from async_restframework.test import AsyncAPIClient, AsyncAPIRequestFactory
 
 
 @api_view(["GET", "POST", "PUT", "PATCH"])

@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "adrf"
+name = "async_restframework"
 version = "0.1.9"
 description = "Async support for Django REST framework"
 authors = ["Enrico Massa <enrico.massa@gmail.com>"]
 keywords = ["async", "django", "rest", "framework", "drf"]
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/em1208/adrf"
-repository = "https://github.com/em1208/adrf"
+homepage = "https://github.com/django-adrf/django-async-rest-framework"
+repository = "https://github.com/django-adrf/django-async-rest-framework"
 include = ["LICENSE"]
 
 [tool.poetry.dependencies]
@@ -32,7 +32,7 @@ build-backend = "poetry.core.masonry.api"
 extend-select = ["I"]
 
 [tool.coverage.run]
-source = ["adrf"]
+source = ["async_restframework"]
 branch = true
 parallel = true
 
